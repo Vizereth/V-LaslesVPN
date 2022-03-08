@@ -66,7 +66,7 @@
   }
 
   &__content-social-icon {
-    background: white;
+    background-color: white;
 
     width: 34px;
     height: 34px;
@@ -82,6 +82,12 @@
     border-radius: 50%;
 
     box-shadow: 0 10px 10px rgba(13, 16, 37, 0.06);
+
+    &:hover {
+      background-color: $redColor;
+      color: white;
+      transition: all $HoverTransition;
+    }
   }
 
   &__content-copyright {

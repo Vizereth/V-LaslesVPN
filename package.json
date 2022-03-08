@@ -1,4 +1,5 @@
 {
+	"homepage": "http://limabeth.github.io/LaslesVPN",
 	"name": "fls-start",
 	"version": "3.0.0",
 	"description": "Start template with Gulp and Webpack",
@@ -12,6 +13,7 @@
 		"sprite": "gulp sprite",
 		"fonts": "gulp fonts --rewrite",
 		"deploy": "gulp deployFTP --build",
+		"deploygh": "gulp deploygh",
 		"zip": "gulp deployZIP --build",
 		"devbuild": "gulp build --build --nowebp",
 		"tmp": "gulp -f gulpfile.tmp.js",
@@ -28,6 +30,7 @@
 		"gulp-autoprefixer": "latest",
 		"gulp-clean-css": "latest",
 		"gulp-fonter-fix": "latest",
+		"gulp-gh-pages": "^0.5.4",
 		"gulp-group-css-media-queries": "latest",
 		"gulp-if": "latest",
 		"gulp-imagemin": "latest",

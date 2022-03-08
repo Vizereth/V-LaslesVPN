@@ -5,6 +5,13 @@ import { plugins } from "./config/gulp-plugins.js";
 // Импорт путей
 import { path } from "./config/gulp-settings.js";
 
+import ghPages from "gulp-gh-pages";
+
+gulp.task('deploygh', function() {
+    return gulp.src('./dist/**/*')
+      .pipe(ghPages());
+  });
+
 // Передаем значения в глобальную переменную
 global.app = {
 	isBuild: process.argv.includes('--build'),
