@@ -1454,7 +1454,7 @@ body {
 }
 
 .footer__content-social-icon {
-  background: white;
+  background-color: white;
   width: 34px;
   height: 34px;
   display: -webkit-box;
@@ -1472,6 +1472,14 @@ body {
   border-radius: 50%;
   -webkit-box-shadow: 0 10px 10px rgba(13, 16, 37, 0.06);
           box-shadow: 0 10px 10px rgba(13, 16, 37, 0.06);
+}
+
+.footer__content-social-icon:hover {
+  background-color: #f53838;
+  color: white;
+  -webkit-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
 }
 
 .footer__content-copyright {
