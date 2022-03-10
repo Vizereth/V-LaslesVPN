@@ -58,6 +58,7 @@
 		"pug-loader": "latest",
 		"sass": "latest",
 		"sass-loader": "latest",
+		"scroll-js": "^3.5.0",
 		"smooth-scroll": "latest",
 		"string-replace-loader": "latest",
 		"style-loader": "latest",
@@ -74,6 +75,7 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
+		"scroll-js": "^3.5.0",
 		"simplebar": "latest"
 	}
 }
