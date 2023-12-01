@@ -13,15 +13,6 @@
             document.documentElement.classList.add(className);
         }));
     }
-    let addWindowScrollEvent = false;
-    setTimeout((() => {
-        if (addWindowScrollEvent) {
-            let windowScroll = new Event("windowScroll");
-            window.addEventListener("scroll", (function(e) {
-                document.dispatchEvent(windowScroll);
-            }));
-        }
-    }), 0);
     class PlanCard {
         constructor(className) {
             this.className = className;
