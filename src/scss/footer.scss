@@ -5,16 +5,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    padding: 0 15px 100px 15px;
+    padding: 50px 15px;
 
     @include maxTablet {
       flex-direction: column;
       align-items: center;
+      padding: 35px 15px;
     }
 
     @include maxMobileSmall {
-      padding: 0 15px 50px 0;
+      padding: 20px 10px 20px 10px;
     }
   }
 
