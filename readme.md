@@ -2,7 +2,7 @@
 
 ## Deploy
 
-https://sophrona.github.io/V-LaslesVPN
+https://vizereth.github.io/V-LaslesVPN
 
 ## Project setup
 ```
